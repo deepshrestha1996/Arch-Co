@@ -1,0 +1,103 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar:hover{
+    background-color: rgba(34, 34, 34, 0.9);
+    transition: 0.5s;
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    border-color: transparent;
+}
+.navbar-inverse{
+    background-color: rgba(34, 34, 34, 0.3);
+    border-color: transparent;
+    color: white;
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.dropdown-menu{
+    background-color: #222;
+}
+.dropdown-menu>li>a {
+    color: white;
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(34, 34, 34, 0.9);
+    padding: 14px 14px 0;
+    overflow: hidden;
+}
+#login .social-buttons{
+    margin: 12px 0;
+    
+}
+.btn-fb{
+    margin-right: 10px;
+    color:#fff;
+}
+.btn-fb:hover{
+    color:#fff;
+    background-color: #3c5898;
+}
+.btn-tw{
+    margin-right: 10px;
+    color:#fff;
+}
+.btn-tw:hover{
+    background-color: #55adee;
+}
+.greyText{
+    color: #9d9d9d;
+}
+
+.carousel{
+    height: 600px;  
+    margin-bottom: 50px;
+}
+.carousel .item{
+    height: 600px;
+    background-color: #777;
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 600px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+.carousel-indicators {
+    top: 550px;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    
+}
+
+.team{
+    text-align: center;
+    margin: 20px;
+    
+}
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.divider{
+   margin: 40px ; 
+}
+.info{
+    padding-right: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
