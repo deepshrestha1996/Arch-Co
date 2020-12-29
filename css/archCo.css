@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .navbar:hover{
-    background-color: rgba(34, 34, 34, 0.9);
+    background-color: rgba(34, 34, 34, 1);
     transition: 0.5s;
 }
 .navbar-wrapper{
@@ -12,12 +12,15 @@ body{
     left: 0;
     z-index: 20;
     border-color: transparent;
+    position: fixed;
+}
+a:hover{
+    text-decoration: none;
 }
 .navbar-inverse{
     background-color: rgba(34, 34, 34, 0.3);
     border-color: transparent;
-    color: white;
-    
+    color: white;    
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #ffffff;
@@ -84,7 +87,7 @@ body{
     
 }
 
-.team{
+.img-center{
     text-align: center;
     margin: 20px;
     
@@ -101,3 +104,96 @@ body{
     padding-top: 50px;
     text-align: center;
 }
+.heading1{
+    text-align: center;
+    font-size: 4em;
+}
+.footer i{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 4em;
+}
+.parallax-aboutUs{
+    position: relative;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+.center-text-aboutUs{
+    width: 100%;
+    position: absolute;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.parallax-home-1{
+    position: relative;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+.parallax-home-2{
+    position: relative;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+
+.col-md-8{
+        margin-top: 100px;
+}
+.col-md-8  > h1{
+    color: white;
+    font-size: 4em;
+}
+.col-md-8 > p{
+    color: white;
+}
+.col-md-8:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.col-md-8 > p:hover{
+    color: white;
+    transition: 0.5s;
+
+}
+.col-md-8 > h1:hover{
+    color: white;
+    transition: 0.5s;
+    font-size: 4em;
+}
+
+.home-img:hover{
+    height: 201px;
+    width: 201px;
+    box-shadow: 8px 5px 5px grey;
+    transition: 0.5s;
+}
+.aboutUs-img:hover{
+    height: 141px;
+    width: 141px;
+    box-shadow: 8px 5px 5px grey;
+    transition: 0.5s;
+}
+.contact > h1{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 300px;
+}
+.contact{
+    text-align: center;
+}
+
+
+
+
