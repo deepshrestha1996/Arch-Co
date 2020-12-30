@@ -193,6 +193,19 @@ a:hover{
 .contact{
     text-align: center;
 }
+.location-div{
+    margin-top: 200px;
+}
+.col-md-12 > a:hover{
+    background-color: white;
+    color: black;
+
+}
+.col-md-12 > a{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+}
+
 
 
 

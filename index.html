@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
-
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="JS/parallax.js"></script>
 	<title>Arch Co. Home</title>
 
@@ -40,26 +42,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">ARCH CO</a>
+                  <a class="navbar-brand" href="#">Arch Co</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-                    <li><a href="/aboutUs.html">About us</a></li>
+                    <li><a href="/aboutUs.html">About Us</a></li>
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Location<span class="caret"></span></a>
                       <ul class="dropdown-menu">
-                        <li><a href="#">Kathmandu</a></li>
-                        <li><a href="#">Lalitpur</a></li>
-                        <li><a href="#">Bhaktapur</a></li>
-                        <li role="separator" class="divider"></li>
+                        <li><a class="ktm" target="_blank" href="./location.html" data-location="kathmandu">Kathmandu</a></li>
                           <li class="dropdown-header">New Branches opening</li>
                         <li><a href="#">Butual</a></li>
                       </ul>
                     </li>
+                    
+                    <li><a href="./team.html">Our Team</a></li>
                     <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="#">Team Members</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
                     
@@ -69,11 +69,14 @@
                                 <li>
                                     <div class="row greyText">
                                         <div class="col-md-12">
-                                            Sign-up: 
+                                            Sign-up Via: 
                                             <div class="social-buttons">
                                                 <a href="#" class="btn btn-fb"><i class="fab fa-facebook-f white-icon"></i></a>
                                                 <a href="#" class="btn btn-tw"><i class="fab fa-twitter white-icon"></i></a>
                                             </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <a class="btn btn-default" href="createAccount.html" target="_blank">Create an account</a>
                                         </div>
                                     </div>
                                 </li>
@@ -235,11 +238,8 @@
 <!--footer section ends here-->
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
 
-	<script>
-	</script>
 
 </body>
 
